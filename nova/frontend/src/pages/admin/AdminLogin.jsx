@@ -50,7 +50,7 @@ export default function AdminLogin() {
         </form>
 
         <p className="mt-6 text-center text-xs text-stone">
-          Demo credentials: see README (admin@nova.com / Admin@123 by default)
+          Demo credentials: see README
         </p>
       </div>
     </div>
