@@ -15,7 +15,7 @@ const app = express();
 });
 
 // CORS: only the frontend origin(s) listed in CLIENT_URL may call this API from a browser
-const allowedOrigins = (process.env.CLIENT_URL || 'http://localhost:5173')
+const allowedOrigins = (process.env.CLIENT_URL || 'http://localhost:5173' || '*')
   .split(',')
   .map((origin) => origin.trim().replace(/\/$/, ''));
 
